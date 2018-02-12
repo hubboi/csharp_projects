@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aochen/Documents/csharp-projects/throwing_a_dice/ThrowingADice/ThrowingADice.csproj",
+      "projectUniqueName": "/Users/aochen/Documents/csharp_projects/throwing_a_dice/ThrowingADice/ThrowingADice.csproj",
       "projectName": "ThrowingADice",
-      "projectPath": "/Users/aochen/Documents/csharp-projects/throwing_a_dice/ThrowingADice/ThrowingADice.csproj",
+      "projectPath": "/Users/aochen/Documents/csharp_projects/throwing_a_dice/ThrowingADice/ThrowingADice.csproj",
       "packagesPath": "/Users/aochen/.nuget/packages/",
-      "outputPath": "/Users/aochen/Documents/csharp-projects/throwing_a_dice/ThrowingADice/obj",
+      "outputPath": "/Users/aochen/Documents/csharp_projects/throwing_a_dice/ThrowingADice/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
