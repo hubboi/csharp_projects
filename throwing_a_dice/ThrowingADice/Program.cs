@@ -10,10 +10,18 @@ namespace ThrowingADice
             //Console.WriteLine("Hello World!");
             //int k = Program.AddNumbers(3, 4);
             //Console.WriteLine(k);
-            int[] p = new int[] {1, 2, 3, 4, 5 ,6};
-            int[] a = new int[] {1, 2};
-            int[] b = new int[] {2, 1};
-            Program.IndependencyCheck(p, a, b);
+            Random rnd = new Random();
+            int listLength = rnd.Next(10, 100); // rnd.Next(a, b) creates a number between a and b-1
+            int start = 3;
+            int stop = 19;
+            Console.WriteLine(listLength);
+            List<int> mainList = Program.RandomListOfIntegers(listLength, start, stop);
+            //int[] p = new int[] {1, 2, 3, 4, 5 ,6};
+            //int[] a = new int[] {1, 2};
+            //int[] b = new int[] {2, 1};
+            //Program.IndependencyCheck(p, a, b);
+            Console.WriteLine(mainList);
+            Console.ReadLine();
             return 0;
         }
 
@@ -25,12 +33,6 @@ namespace ThrowingADice
 
         public static void IndependencyCheck(int[] p, int[] a, int[] b)
         {
-            /*
-            for (int i = 0; i < p.Length; i++)
-            {
-                Console.WriteLine(p[i]);
-            }            
-            */
 
             int numberOfElementsInA = a.Length;
             int numberOfElementsInB = b.Length;
@@ -54,7 +56,7 @@ namespace ThrowingADice
                 bool independency = true;
                 Console.WriteLine(independency);
             }
-            else 
+            else
             {
                 float abIntersection = intersection.Count / p.Length;
                 float abProduct = a.Length * b.Length / (p.Length) ^ 2;
@@ -75,6 +77,22 @@ namespace ThrowingADice
             }
         }
 
+        public static List<int> RandomListOfIntegers(int listLength, int lowerLimit, int upperLimit)
+        {
+
+            var mainList = new List<int>();
+            Random thisElement = new Random();
+            for (int i = 0; i < listLength; i++)
+            {
+                mainList.Add(thisElement.Next(lowerLimit, upperLimit - 1));
+                //Console.WriteLine(mainList[i]);
+
+            }
+            return mainList;
+
+        }
+
+        //public static void PairwiseIndependencyCheck(int[] p, int[] a, int[] b)
 
     }
 }
