@@ -53,3 +53,14 @@ D:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\Throwin
 D:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.AssemblyInfo.cs
 D:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.dll
 D:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.pdb
+F:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.csprojResolveAssemblyReference.cache
+F:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.csproj.CoreCompileInputs.cache
+F:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.AssemblyInfoInputs.cache
+F:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.AssemblyInfo.cs
+F:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.dll
+F:\csharp_projects\throwing_a_dice\ThrowingADice\obj\Debug\netcoreapp2.0\ThrowingADice.pdb
+F:\csharp_projects\throwing_a_dice\ThrowingADice\bin\Debug\netcoreapp2.0\ThrowingADice.deps.json
+F:\csharp_projects\throwing_a_dice\ThrowingADice\bin\Debug\netcoreapp2.0\ThrowingADice.runtimeconfig.json
+F:\csharp_projects\throwing_a_dice\ThrowingADice\bin\Debug\netcoreapp2.0\ThrowingADice.runtimeconfig.dev.json
+F:\csharp_projects\throwing_a_dice\ThrowingADice\bin\Debug\netcoreapp2.0\ThrowingADice.dll
+F:\csharp_projects\throwing_a_dice\ThrowingADice\bin\Debug\netcoreapp2.0\ThrowingADice.pdb
